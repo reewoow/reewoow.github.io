@@ -1400,8 +1400,7 @@ height: 700px;
 	height: 450px;
 }
 
-.cover-bg,
-.post-bg {
+.cover-bg {
 	-webkit-animation: 	fadeIn 1s ease-in-out;
 	animation:			fadeIn 1s ease-in-out;
 	background-position: center;
@@ -1413,6 +1412,31 @@ height: 700px;
 	right: 0;
 	top: 0;
 }
+.post-bg {
+	-webkit-animation: 	fadeIn 1s ease-in-out;
+	animation:			fadeIn 1s ease-in-out;
+	background-position: center;
+	background-size: cover;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.post-header .post-bg {
+	-webkit-animation: 	fadeIn 1s ease-in-out;
+	animation:			fadeIn 1s ease-in-out;
+	background-position: center;
+	background-size: cover;
+	bottom: 0;
+	left: 0;
+	opacity: 0.4;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 
 .cover-content {
 	display: table-cell;
